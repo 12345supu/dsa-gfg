@@ -32,4 +32,14 @@ int main()
     return 0;
 }
 
+.............................................................
+  
+One line code
+  
+bool checkKthBit(int n, int k)
+    {
+        return (n & (1<<k));
+        // Your code here
+        // It can be a one liner logic!! Think of it!!
+    }
 
