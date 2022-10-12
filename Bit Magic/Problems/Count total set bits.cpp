@@ -25,7 +25,7 @@ class Solution{
          
 ..................................................................
          
-Method 2 (Pattern Recognition O(logn))
+Method 2 (Pattern Recognition - RECURSIVE (O(logn)))
   
 class Solution{
     public:
@@ -47,3 +47,8 @@ class Solution{
         // Your logic here
     }
 };
+
+..............................................................................................
+          
+
+          
