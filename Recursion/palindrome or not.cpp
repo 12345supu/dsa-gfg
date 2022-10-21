@@ -16,3 +16,14 @@ bool isPalindrome(char str[], int s, int e)
   
     return true; 
 } 
+
+.............................................................
+    
+Method 2
+    
+bool palindrome(string n, int s, int e)
+{
+    if(s >= e)
+        return true;
+    return (n[s] == n[e]) && (palindrome(n, s + 1, e - 1));
+}
